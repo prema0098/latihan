@@ -108,6 +108,7 @@ a {
 .description {
     font-size: 28px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .img-foto {
@@ -214,7 +215,7 @@ footer {
         bottom: 0;
         width: 100%;
         background: var(--dark-blue);
-        z-index: 9;
+        z-index: 11;
     }
 
     footer {

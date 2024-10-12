@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Tedy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Web Tedy</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
+    <header class="#">
+        <div class="logo animate__animated animate__swing animate__infinite animate__delay-3s">
             <img src="assets/icon/partner.png" alt="logo" class="logo-img">
             <h1 class="logo-title">TEDY X</h1>
         </div>
@@ -20,25 +21,25 @@
                 <li><a href="mailto:tedy.bisnis@gmail.com">KONTAK</a></li>
             </ul>
         </nav>
-        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+        <button class="btn-cta animate__animated animate__pulse animate__infinite" onclick="redirInstagram()">Follow Saya</button>
     </header>
     <div class="container">
         <div class="intro">
-            <p class="title">Hello, Tedy Rediantoro here!</p>
-            <p class="description">Technologi Influencer form village</p>
-            <img src="assets/foto/tedy-foto-1.jpg" alt="tedy rediantoro foto 1" class="img-foto">
+            <p class="title animate__animated animate__backInLeft">Hello, Tedy Rediantoro here!</p>
+            <p class="description animate__animated animate__backInLeft">Technologi Influencer form village</p>
+            <img src="assets/foto/tedy-foto-1.jpg" alt="tedy rediantoro foto 1" class="img-foto  animate__animated animate__backInUp">
         </div>
     </div>
     <div class="parallax">
-        <div class="tentang">
+        <div class="tentang animate__animated animate__lightSpeedInLeft">
             <p class="title">Saya Adalah Programer</p>
             <p class="description">Ngoding Aja Dulu Jagonya Belakangan</p>
             <div class="mt-10">
-                <button class="btn-cta" onclick="redirWhattapp()">Mari Kerja Sama</button>
+                <button class="btn-cta animate__animated animate__pulse animate__infinite" onclick="redirWhattapp()">Mari Kerja Sama</button>
             </div>
         </div>
         <div class="container">
-            <div class="card">
+            <div class="card animate__animated animate__infinite animate__pulse">
                 <div class="card-item">
                     <img src="assets/icon/24-hours.png" alt="icon 1" class="icon">
                     <p class="card-title" id="jasa">Pelayanan Nonstop</p>
@@ -58,14 +59,14 @@
         </div>
     </div>
     <footer>
-        <p class="title">&copy; Tedy Website 2024</p>
+        <p class="title">&copy; Tedy Official 2024</p>
     </footer>
     <script>
-        function redirInstagram () {
+        function redirInstagram() {
             window.location.href = "https://www.instagram.com/hytedz/"
         }
 
-        function redirWhattapp () {
+        function redirWhattapp() {
             window.location.href = "https://wa.me/6287837826798"
         }
     </script>
